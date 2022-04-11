@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Roboto&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Fredoka, Roboto sans-serif;
+    background-color: #F1F8FD;
+}
+
+#profile-picture {
+    width: 30%;
+    border-radius: 50%;
+}
+
+.container {
+    min-height: 120vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+#title {
+    margin: 70px 0;
+    text-decoration: underline 2px lightseagreen;
+}
+
+.review-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    background-color: white;
+    padding: 10px 5px;
+    border-radius: 4%;
+    box-shadow: 0px 4px 8px lightgrey;
+}
+
+.review-box p {
+    text-align: center;
+}
+
+.review-box h3 {
+    margin: 4px 0;
+}
+
+.review-box h4 {
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: lightseagreen;
+}
+
+.buttons {
+    margin: 10px 0;
+}
+
+.buttons button {
+    font-size: 32px;
+    margin: 0 10px;
+    background-color: white;
+    border: none;
+}
+
+.buttons button:hover {
+    color: lightseagreen;
+}
+
+#random-btn {
+    background-color: rgba(44, 238, 228, 0.315);
+    padding: 4px 12px;
+    border-width: 1px;
+    border-radius: 12px;
+    border-color: lightseagreen;
+    color: rgb(28, 153, 147);
+}
+
+#random-btn:hover {
+    background-color: rgba(37, 192, 184, 0.555);
+}
+
+#profile-pic {
+    display: flex;
+    justify-content: center;
+}

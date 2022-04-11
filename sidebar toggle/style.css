@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Roboto&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    position: relative;  
+}
+
+body {
+    height: 100%;
+    font-family: Fredoka, Roboto sans-serif;
+    background-color: #F1F8FD;
+}
+
+ul {
+    list-style: none;
+}
+
+#main {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*_____SIDEBAR_____*/
+
+.sidebar {
+    background-color: white;
+    width: 20rem;
+    height: 100%;
+    padding: 1rem 1.5rem;
+    transform: translate(-100%);
+    transition: transform 300ms ease;
+    box-shadow: 2px 0px 8px lightgrey;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.exit-btn {
+    background-color: white;
+    border: none;
+    font-size: 20px;
+    color: red;
+    font-weight: bolder;
+    transition: all 300ms ease;
+}
+
+.exit-btn:hover {
+    transform: rotate(180deg);
+}
+
+#menu-ul {
+    margin-top: 2rem;
+}
+
+#menu-ul a {
+    text-decoration: none;
+    color: grey;
+    font-size: 24px;
+    transition: all 500ms ease;
+}
+
+#menu-ul a:hover {
+    color: palevioletred;
+}
+
+#menu-ul li {
+    margin: 1rem 0;
+}
+
+.toggle-btn {
+    height: 2.5rem;
+    margin: 2rem 2rem;
+    background-color: white;
+    border: none;
+    font-size: 32px;
+    transition: all 200ms ease;
+}
+
+.toggle-btn:hover {
+    transform: rotate(90deg);
+}
+
+.show {
+    transform: translate(0);
+}

@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Roboto&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Fredoka, Roboto sans-serif;
+    background-color: #F1F8FD;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style: none;
+}
+
+/*_____NAVBAR_____*/
+.navbar {
+    height: 3rem;
+    padding: 0 24px;
+    background-color: white;
+    box-shadow: 0px 2px 8px lightgrey;
+    transition: all 300ms ease;
+}
+
+.main-nav {
+    padding-top: 0.5rem;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dropdown {
+    height: 0;
+    overflow: hidden;
+    margin-top: 10px;
+    transition: all 300ms ease;
+}
+
+.show-dropdown {
+    height: 10rem;
+}
+
+.nav-dropdown {
+    height: 8rem;
+}
+
+.dropdown li {
+    margin: 5px 0;
+}
+
+.dropdown li:hover {
+    background-color: lightblue;
+}
+
+.nav-toggle {
+    font-size: 24px;
+    background-color: white;
+    border: none;
+    transition: transform 200ms ease-in;
+}
+
+.nav-toggle:hover {
+    transform: rotate(90deg);
+}
